@@ -1,11 +1,11 @@
-# gradle 标准参考教程（alpha）
-gradle基础教程，由浅入深，一步一步学习gradle，最后学到的不单单是基础！
+# Gradle 标准参考教程（alpha）
+Gradle基础教程，由浅入深，一步一步学习Gradle，最后学到的不单单是基础！
 
 #### 在mac上安装gradle
 
 ##### 第一步， 就是先download最新版本的gradle，网址如下：
 
-[gradle](http://gradle.org/gradle-download/)
+[gradle](http://gradle.org/gradle-download/Gradle.md)
 
 然后将下载下来的zip包放解压到本地任意的路径上，
 
@@ -51,7 +51,7 @@ JVM:          1.8.0_151 (Oracle Corporation 25.151-b12)
 OS:           Mac OS X 10.13.1 x86_64
 
 
-Spring Boot兼容Gradle 1.12或更高版本。如果本地没有安装Gradle，你可以参考[www.gradle.org](http://www.gradle.org/)上的指南。
+Spring Boot兼容Gradle 1.12或更高版本。如果本地没有安装Gradle，你可以参考[www.gradle.org](http://www.gradle.org/Gradle.md)上的指南。
 
 Spring Boot的依赖可通过groupId `org.springframework.boot`来声明。通常，你的项目将声明一个或多个[“Starter POMs”](../III. Using Spring Boot/13.4. Starter POMs.md)依赖。Spring Boot提供了一个很有用的[Gradle插件](../VIII. Build tool plugins/59. Spring Boot Gradle plugin.md)，可以用来简化依赖声明，创建可执行jars。
 
