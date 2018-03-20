@@ -15,3 +15,7 @@ $ java -version
 对于java开发者来说，使用Spring Boot就跟使用其他Java库一样，只需要在你的classpath下引入适当的spring-boot-*.jar文件。Spring Boot不需要集成任何特殊的工具，所以你可以使用任何IDE或文本编辑器；同时，Spring Boot应用也没有什么特殊之处，你可以像对待其他Java程序那样运行，调试它。
 
 尽管可以拷贝Spring Boot jars，但还是建议使用支持依赖管理的构建工具，比如Maven或Gradle。
+
+## 参考链接
+
+### [Spring Boot 系列（一）快速入门](http://blog.csdn.net/sinat_14982831/article/details/75126936)

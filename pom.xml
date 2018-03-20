@@ -10,7 +10,9 @@
 
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
-
+	<!-- 继承 spring boot 父包 -->
+	<!-- spring-boot-starter-parent 模块中包含了自动配置、日志和YAML
+	（参考：https://my.oschina.net/u/3235888/blog/887854） ，使构建spring项目变得简单。 -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -25,11 +27,14 @@
 	</properties>
 
 	<dependencies>
+		<!-- 构建web项目模块 包括了Tomcat和spring-webmvc -->
+		<!-- spring-boot-starter-web 默认依赖了tomcat的starter 所以使得项目可以直接运行而不需要部署到tomcat中-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- spring-boot-starter-test 测试模块，包括JUnit、Hamcrest、Mockito -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
