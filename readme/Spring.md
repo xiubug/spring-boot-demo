@@ -60,3 +60,8 @@ public class MyController {
 是2个注解的合并效果，即指定了该controller是组件，又指定方法返回的是String或json类型数据，不会解决成jsp页面，注定不够灵活，
 如果一个Controller即有SpringMVC返回视图的方法，又有返回json数据的方法即使用@RestController太死板。
 灵活的作法是：定义controller的时候，直接使用@Controller，如果需要返回json可以直接在方法中添加@ResponseBody
+
+### @SpringApplication
+
+Spring Boot的SpringApplication类，用以启动一个Spring应用，实质上是为Spring应用创建并初始化Spring上下文。其中，第一个
+参数MySpringConfigurationApp.class就是Spring应用的入口类；第二个参数args是启动Spring应用的命令行参数
